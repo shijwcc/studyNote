@@ -22,3 +22,5 @@ A：1.删除node modules中的全部文件。
 for(let i = 0; i < 3; i++){
 	let i = 'abc'
 }
+
+5.var 
