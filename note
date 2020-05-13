@@ -1,0 +1,24 @@
+1.  https://registry.npmjs.org/
+npm config get registry  
+npm config set registry https://registry.npm.taobao.org
+
+2.安装 cnpm
+npm install cnpm -g --registry=https://registry.npm.taobao.org
+
+3.包管理器：
+npm i nrm -g
+nrm ls(list)
+nrm use taobao
+
+-g 全局安装
+-S （--save）写入dependencies--生产环境
+-D （--save-dev）写入devDependencies --开发环境
+
+Q：Error: EPERM: operation not permitted
+A：1.删除node modules中的全部文件。
+   2.清除Npm缓存。（删除C:\Users\用户名 .npmrc / npm cache clean --force）
+   
+4.设置循环变量为父作用域，循环体内部为子作用域  
+for(let i = 0; i < 3; i++){
+	let i = 'abc'
+}
