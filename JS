@@ -1,0 +1,4 @@
+JS
+
+1.js执行队列：轮转时间片。
+	eg：js执行主线程：task1,1ms <- task2,1ms <- task1,1ms <- task2,1ms
