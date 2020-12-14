@@ -32,3 +32,5 @@ for(let i = 0; i < 3; i++){
   
 6.js执行队列：轮转时间片。
 	eg：js执行主线程：task1,1ms <- task2,1ms <- task1,1ms <- task2,1ms
+	
+	测试修改后面删除
